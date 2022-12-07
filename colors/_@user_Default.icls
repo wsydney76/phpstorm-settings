@@ -1,0 +1,38 @@
+<scheme name="_@user_Default" version="142" parent_scheme="Default">
+  <metaInfo>
+    <property name="created">2019-02-10T10:51:53</property>
+    <property name="ide">PhpStorm</property>
+    <property name="ideVersion">2018.1.4.0.0</property>
+    <property name="modified">2022-08-06T11:20:52</property>
+    <property name="originalScheme">Default</property>
+  </metaInfo>
+  <attributes>
+    <option name="HTML_ATTRIBUTE_VALUE">
+      <value>
+        <option name="FOREGROUND" value="8000" />
+      </value>
+    </option>
+    <option name="HTML_TAG">
+      <value />
+    </option>
+    <option name="TWIG_BACKGROUND">
+      <value />
+    </option>
+    <option name="TWIG_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="8000" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="TWIG_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="a03935" />
+      </value>
+    </option>
+    <option name="TWIG_STRING">
+      <value>
+        <option name="FOREGROUND" value="8000" />
+      </value>
+    </option>
+  </attributes>
+</scheme>

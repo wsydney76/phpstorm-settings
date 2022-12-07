@@ -1,0 +1,11 @@
+<application>
+  <component name="DockerSettings">
+    <option name="dockerComposePath" value="C:\Program Files\Docker\Docker\resources\bin\docker-compose.exe" />
+    <option name="dockerMachinePath" value="" />
+    <option name="dockerPath" value="C:\Program Files\Docker\Docker\resources\bin\docker.exe" />
+    <option name="useComposeV2" value="true" />
+  </component>
+  <component name="DockerTreeFilter">
+    <option name="myStoppedContainersHidden" value="true" />
+  </component>
+</application>

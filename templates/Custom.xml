@@ -1,0 +1,13 @@
+<templateSet group="Custom">
+  <template name="t" value="{% %}" description="Twig Tag" toReformat="false" toShortenFQNames="true" />
+  <template name="o" value="{{  }}" description="Twig Output" toReformat="false" toShortenFQNames="true" />
+  <template name="k" value="{#  #}" description="Twig Comment" toReformat="false" toShortenFQNames="true" />
+  <template name="v" value="{# @var craft \craft\web\twig\variables\CraftVariable #}" description="Php Storm Variable" toReformat="false" toShortenFQNames="true" />
+  <template name="image" value="{% set image = $VARIABLE$.one() %}&#10;&#10;{% if image %}&#10;&#9;&lt;img src=&quot;{{ image.getUrl('$IMAGETRANSFORM$') }}&quot;  alt=&quot;{{ image.title }}&quot;&gt;&#10;{% endif %}&#10;$END$" description="image.one()" toReformat="true" toShortenFQNames="true">
+    <variable name="VARIABLE" expression="" defaultValue="entry.featuredImage" alwaysStopAt="true" />
+    <variable name="IMAGETRANSFORM" expression="" defaultValue="featuredImage" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+</templateSet>

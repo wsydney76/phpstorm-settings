@@ -1,0 +1,103 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="ComposerSettings">
+        <execution />
+      </component>
+      <component name="MarkdownSettingsMigration">
+        <option name="stateVersion" value="1" />
+      </component>
+      <component name="ProjectDictionaryState">
+        <dictionary name="wsydn" />
+      </component>
+      <component name="ProjectInspectionProfilesVisibleTreeState">
+        <entry key="Project Default">
+          <profile-state>
+            <expanded-state>
+              <State />
+              <State>
+                <id>AccessibilityHTML</id>
+              </State>
+              <State>
+                <id>Code style issuesJavaScript and TypeScript</id>
+              </State>
+              <State>
+                <id>Flow type checkerJavaScript and TypeScript</id>
+              </State>
+              <State>
+                <id>General</id>
+              </State>
+              <State>
+                <id>GeneralJavaScript and TypeScript</id>
+              </State>
+              <State>
+                <id>GeneralPHP</id>
+              </State>
+              <State>
+                <id>HTML</id>
+              </State>
+              <State>
+                <id>Imports and dependenciesJavaScript and TypeScript</id>
+              </State>
+              <State>
+                <id>Internationalization</id>
+              </State>
+              <State>
+                <id>JSON and JSON5</id>
+              </State>
+              <State>
+                <id>JavaScript and TypeScript</id>
+              </State>
+              <State>
+                <id>Language level migrationPhp Inspections (EA Extended)PHP</id>
+              </State>
+              <State>
+                <id>Node.jsJavaScript and TypeScript</id>
+              </State>
+              <State>
+                <id>PHP</id>
+              </State>
+              <State>
+                <id>Php Inspections (EA Extended)PHP</id>
+              </State>
+              <State>
+                <id>Potentially confusing code constructsJavaScript and TypeScript</id>
+              </State>
+              <State>
+                <id>Probable bugsPhp Inspections (EA Extended)PHP</id>
+              </State>
+              <State>
+                <id>Proofreading</id>
+              </State>
+              <State>
+                <id>Quality toolsPHP</id>
+              </State>
+              <State>
+                <id>SecurityPhp Inspections (EA Extended)PHP</id>
+              </State>
+              <State>
+                <id>ServiceSymfony</id>
+              </State>
+              <State>
+                <id>Symfony</id>
+              </State>
+              <State>
+                <id>Validity issuesJavaScript and TypeScript</id>
+              </State>
+            </expanded-state>
+            <selected-state>
+              <State>
+                <id>CSS</id>
+              </State>
+            </selected-state>
+          </profile-state>
+        </entry>
+      </component>
+      <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;last_opened_file_path&quot;: &quot;//wsl$/Ubuntu/home/wsydn/temp&quot;
+  }
+}</component>
+    </defaultProject>
+  </component>
+</application>

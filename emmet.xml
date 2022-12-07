@@ -1,0 +1,6 @@
+<application>
+  <component name="CssEmmetOptions">
+    <option name="fuzzySearchEnabled" value="true" />
+    <option name="unknownPropertiesExpansionEnabled" value="true" />
+  </component>
+</application>

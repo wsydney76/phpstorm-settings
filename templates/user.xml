@@ -1,0 +1,148 @@
+<templateSet group="user">
+  <template name="set" value="{% set $TEMPLATE$$END$ %}" description="set statement" toReformat="true" toShortenFQNames="true">
+    <variable name="TEMPLATE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="o" value="{{ $TEMPLATE$$END$ }}" description="Output" toReformat="true" toShortenFQNames="true">
+    <variable name="TEMPLATE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="t" value="{% $TEMPLATE$$END$ %}" description="Tag" toReformat="true" toShortenFQNames="true">
+    <variable name="TEMPLATE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="k" value="{# $TEMPLATE$$END$ #}" description="Comment" toReformat="true" toShortenFQNames="true">
+    <variable name="TEMPLATE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="var" value="{# @var $VARIABLE$ \$CLASS$ #}" description="Craft Autocomplete" toReformat="true" toShortenFQNames="true">
+    <variable name="VARIABLE" expression="" defaultValue="&quot;variable&quot;" alwaysStopAt="true" />
+    <variable name="CLASS" expression="" defaultValue="&quot;classPath&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="imx" value="{% set image = $VARIABLE$.one() %}&#10;&#10;{% if image %}&#10;&#9;&lt;img src=&quot;{{ image.getUrl('$IMAGETRANSFORM$') }}&quot;  alt=&quot;{{ image.title }}&quot;&gt;&#10;{% endif %}&#10;$END$" description="image.one()" toReformat="false" toShortenFQNames="true">
+    <variable name="VARIABLE" expression="" defaultValue="entry.featuredImage" alwaysStopAt="true" />
+    <variable name="IMAGETRANSFORM" expression="" defaultValue="featuredImage" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="oo" value="{{ &quot;$TEMPLATE$$END$&quot;|t }}" description="Output translated" toReformat="false" toShortenFQNames="true">
+    <variable name="TEMPLATE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="incw" value="{% include '$TEMPLATE$' with {&#10;&#9;$KEY$: $VALUE$$END$&#10;} only %}" description="Include with" toReformat="false" toShortenFQNames="true">
+    <variable name="TEMPLATE" expression="" defaultValue="&quot;template&quot;" alwaysStopAt="true" />
+    <variable name="KEY" expression="" defaultValue="&quot;key&quot;" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="&quot;value&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="tr" value="'$FROM$' =&gt; '$TO$',$END$" description="Translation" toReformat="false" toShortenFQNames="true">
+    <variable name="FROM" expression="" defaultValue="&quot;from&quot;" alwaysStopAt="true" />
+    <variable name="TO" expression="" defaultValue="&quot;to&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="dd" value="{% dd $VARIABLE$$END$ %}" description="dd" toReformat="false" toShortenFQNames="true">
+    <variable name="VARIABLE" expression="" defaultValue="&quot;Variable&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="pa" value="{# @param $PARAM$ $TYPE$ $COMMENT$ #}$END$" description="param comment" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAM" expression="" defaultValue="&quot;parametername&quot;" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="&quot;parametertype&quot;" alwaysStopAt="true" />
+    <variable name="COMMENT" expression="" defaultValue="&quot;comment&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="dump" value="&lt;pre&gt;&#10;{{ dump($VARIABLE$$END$) }}&#10;&lt;/pre&gt;" description="Twig dump" toReformat="false" toShortenFQNames="true">
+    <variable name="VARIABLE" expression="" defaultValue="&quot;variable&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="pif" value="&lt;?php if ($CONDITION$): ?&gt;&#10;    $BODY$$END$&#10;&lt;?php endif ?&gt;" description="PHP if" toReformat="false" toShortenFQNames="true">
+    <variable name="CONDITION" expression="" defaultValue="&quot;condition&quot;" alwaysStopAt="true" />
+    <variable name="BODY" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="po" value="&lt;?= $OUTPUT$$END$ ?&gt;" description="Php output" toReformat="false" toShortenFQNames="true">
+    <variable name="OUTPUT" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="pfore" value="&lt;?php foreach ($ITERABLE$ as $VAR_VALUE$): ?&gt;&#10;  $END$&#10;&lt;?php endforeach ?&gt;" description="PHP Foreach" toReformat="false" toShortenFQNames="true">
+    <variable name="ITERABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR_VALUE" expression="" defaultValue="&quot;$item&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="flu" value="public function $NAME$($TYPE$ $$$NAME$): self&#10;{&#10;    $this-&gt;$NAME$ = $$$NAME$;&#10;    return $this;&#10;}" description="fluent config function" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="&quot;string&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="app" value="Craft::$app-&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="mdphp" value="```php&#10;$CODE$&#10;```" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="CODE" expression="" defaultValue="&quot;php code goes here&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="ANY_OPENAPI_JSON_FILE" value="false" />
+      <option name="ANY_OPENAPI_YAML_FILE" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="GENERAL_JSON_FILE" value="false" />
+      <option name="GENERAL_YAML_FILE" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="PHP" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="Twig" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="Vue" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+</templateSet>

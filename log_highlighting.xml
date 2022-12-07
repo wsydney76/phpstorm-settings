@@ -1,0 +1,13 @@
+<application>
+  <component name="LogHighlightingSettings">
+    <highlightingPatterns>
+      <LogHighlightingPattern pattern="^\s*e(rror)?\s*$" action="HIGHLIGHT_LINE" fg="-16777216" bg="-26215" stripe="true" />
+      <LogHighlightingPattern pattern="^\s*w(arn(ing)?)?\s*$" action="HIGHLIGHT_LINE" fg="-16777216" bg="-16086" stripe="true" />
+    </highlightingPatterns>
+    <parsingPatterns>
+      <LogParsingPattern name="Yii" pattern="^([\d-: ]+)\[(.*?)\]\[(.*?)\]\[(.*?)\]\[(.*?)\]\[(.*?)\] (.*)" timePattern="yyyy-MM-dd HH:mm:ss" linePattern="^\d" timeId="0" severityId="4" categoryId="3" />
+    </parsingPatterns>
+    <settingsVersion>4</settingsVersion>
+    <lastAddedDefaultFormat>3</lastAddedDefaultFormat>
+  </component>
+</application>

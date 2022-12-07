@@ -1,0 +1,13 @@
+<application>
+  <component name="GitflowState">
+    <option name="taskBranches">
+      <map>
+        <entry key="LOCAL-00002" value="feature/Test_Task" />
+        <entry key="craft_workshop-1" value="feature/craft_workshop-1" />
+        <entry key="craft_workshop-2" value="hotfix/craft_workshop-2" />
+        <entry key="craft_workshop-3" value="hotfix/craft_workshop-3" />
+        <entry key="craft_workshop-4" value="bugfix/craft_workshop-4" />
+      </map>
+    </option>
+  </component>
+</application>

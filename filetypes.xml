@@ -1,0 +1,37 @@
+<application>
+  <component name="FileTypeManager" version="18">
+    <extensionMap>
+      <mapping pattern="craft_fields_Users" type="AUTO_DETECTED" />
+      <mapping pattern="test" type="AUTO_DETECTED" />
+      <mapping pattern="craft_fields_Time" type="AUTO_DETECTED" />
+      <mapping pattern="install-ddev" type="AUTO_DETECTED" />
+      <mapping pattern="craft_fields_Checkboxes" type="AUTO_DETECTED" />
+      <mapping pattern="install" type="AUTO_DETECTED" />
+      <mapping ext="mp4" type="Native" />
+      <mapping ext="ods" type="Native" />
+      <mapping ext="dia" type="Native" />
+      <mapping pattern="craft" type="PLAIN_TEXT" />
+      <mapping pattern="verskl s" type="PLAIN_TEXT" />
+      <mapping pattern="slug" type="PLAIN_TEXT" />
+      <mapping pattern=".env.example" type="PLAIN_TEXT" />
+      <mapping pattern="nitro" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping ext="vtt" type="PLAIN_TEXT" />
+      <mapping ext="example" type="PLAIN_TEXT" />
+      <mapping ext="bin" type="PLAIN_TEXT" />
+      <mapping ext="aff" type="PLAIN_TEXT" />
+      <mapping pattern="*.scss.css" type="SCSS" />
+      <mapping pattern="_manual" type="Twig" />
+      <mapping ext="njk" type="Twig" />
+      <mapping ext="bak" type="YAML" />
+      <mapping ext="old" type="YAML" />
+      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="dockerfile" approved="true" type="textmate" />
+      <removed_mapping ext="log" approved="true" type="ANSI Aware" />
+      <removed_mapping ext="makefile" approved="true" type="textmate" />
+      <removed_mapping ext="snakefile" approved="true" type="textmate" />
+      <removed_mapping pattern="styles.css" approved="true" type="SCSS" />
+    </extensionMap>
+  </component>
+</application>
