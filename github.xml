@@ -1,11 +1,7 @@
 <application>
   <component name="GithubAccounts">
-    <account id="7335c203-157b-4fc4-88ea-0bcac39fb938" name="wsydney76">
+    <account name="wsydney76" id="6dd50c2f-e7be-44e0-8b0c-bcabaeb436c5">
       <server host="github.com" />
     </account>
-  </component>
-  <component name="GithubSettings">
-    <option name="LOGIN" value="wsydney@web.de" />
-    <option name="AUTH_TYPE" value="BASIC" />
   </component>
 </application>
