@@ -171,4 +171,13 @@
       <option name="XML" value="false" />
     </context>
   </template>
+  <template name="event" value="Event::on(&#10;    $CLASS$::class,&#10;    $CLASS$::$EVENTCONSTANT$,&#10;    function($EVENTCLASS$ $event) {&#10;        $BODY$$END$&#10;    }&#10;);" description="Craft Event" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="" defaultValue="&quot;ClassName&quot;" alwaysStopAt="true" />
+    <variable name="EVENTCONSTANT" expression="" defaultValue="&quot;EventConstant&quot;" alwaysStopAt="true" />
+    <variable name="EVENTCLASS" expression="" defaultValue="&quot;EventClass&quot;" alwaysStopAt="true" />
+    <variable name="BODY" expression="" defaultValue="&quot;// FunctionBody&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
